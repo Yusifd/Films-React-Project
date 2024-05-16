@@ -1,0 +1,11 @@
+.header {
+    background: black;
+    padding: 20px calc(50% - 500px) 10px;
+}
+
+.header__title {
+    font-family: Roboto, cursive;
+    color: #FFEEDB;
+    font-size: 45px;
+    margin-left: 40px;
+}
