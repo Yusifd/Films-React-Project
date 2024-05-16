@@ -25,6 +25,7 @@
     color: #FFEEDB;
     font-size: 14px;
     transition: all 0.2s linear;
+    cursor: pointer;
 }
 .list-page__item img{
     height: 350px;
