@@ -37,6 +37,9 @@
     opacity: 0.9;
     transition: all 0.2s linear;
 }
+.favorites__empty-text{
+    color: grey;
+}
 .movies-item__delete-button{
     border: none;
     background-color: #496DDB;
