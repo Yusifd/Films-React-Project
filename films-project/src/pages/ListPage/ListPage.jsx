@@ -24,7 +24,7 @@ function ListPage() {
             <h1 className="list-page__title">Мой список</h1>       
             <ul>
             {savedMovies && savedMovies.movies && savedMovies.movies.map((movie) => (
-                <center>
+                
                         <a className="list-page__link" href={`https://www.imdb.com/title/${movie.imdbID}`} target="_blank" key={movie.imdbID}>
                             <li className="list-page__item">
                                 <img src={movie.Poster !== "N/A" ? movie.Poster : "default-movie.png"} className="list-page__item-poster" alt="movie-poster" />
@@ -32,7 +32,7 @@ function ListPage() {
                                 <button className="list-page__item-watch-button">Смотреть на IMDB</button>
                             </li>
                         </a>
-                        </center>
+                       
                     ))}
             </ul>
         </div>
