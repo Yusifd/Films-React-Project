@@ -30,6 +30,7 @@
     color: #FFEEDB;
     font-size: 14px;
     transition: all 0.2s linear;
+
 }
 
 .favorites__save:hover {
@@ -53,6 +54,10 @@
 }
 h3{
     font-size: 14px;
+}
+.favorites__save{
+    grid-column: 1/2;
+    width: 180px;
 }
 @media (max-width:960px){
     .favorites__list {
